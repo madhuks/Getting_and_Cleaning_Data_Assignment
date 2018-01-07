@@ -1,5 +1,8 @@
-## Code Book
-
+# Code Book
+The tidy data contains 180 rows and 88 columns of data. 
+The first column (class-factor) is a numnber representing the subject (person). There are 30 subjects in the data. 
+The second column (class-factor) represents 'activity' which takes one of the 6 values "LAYING", "SITTING","STANDING","WALKING","WALKING_DOWNSTAIRS" and "WALKING_UPSTAIRS"
+The rest of the 86 coluyumns (3 to 88) represent the calculated mean or standard deviations of various measurements taken from 'subjects' while performing different 'activities'. 
 
  [1] "TimeBodyAccelerometerMean()-X"                    
  [2] "TimeBodyAccelerometerMean()-Y"                    
