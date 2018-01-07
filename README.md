@@ -27,3 +27,11 @@ You should create one R script called run_analysis.R that does the following.
 2. run_analysis.R
 3. CodeBook.md
 4. tidydata.txt
+
+### Instructions on how to run this program
+1. Clone this repository
+2. Launch R studio and create a working directory
+3. Download the raw data from the link below
+   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+4. Unzip the file to create the folder 'UCI HAR Dataset' and copy the folder into the working directory
+5. Soure the proram 'run_analysis.R' to tidy the data 
