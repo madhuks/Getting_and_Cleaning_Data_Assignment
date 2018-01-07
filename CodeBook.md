@@ -1,8 +1,15 @@
 # Code Book
 The tidy data set contains 180 rows and 88 columns of data. Each row has averaged variables for subject and activity. 
 The first column (class-factor) is a numnber representing the subject (person). There are 30 subjects in the data. 
-The second column (class-factor) represents 'activity' which takes one of the 6 values "LAYING", "SITTING","STANDING","WALKING","WALKING_DOWNSTAIRS" and "WALKING_UPSTAIRS"
-The rest of the 86 coluyumns (3 to 88) represent the calculated mean or standard deviations of various measurements taken from 'subjects' while performing different 'activities'. 
+The second column (class-factor) represents 'activity' which takes one of the 6 values below 
+"LAYING" 
+"SITTING"
+"STANDING"
+"WALKING"
+"WALKING_DOWNSTAIRS" 
+"WALKING_UPSTAIRS"
+The rest of the 86 coluumns (3 to 88) represent the calculated mean or standard deviations of various measurements taken from 'subjects' while performing different 'activities'. The variables names are listed below. Each of these columns are either mean or standard deviations of accelerometer signals taken and processed from different subjects while performing one of the six activities. More about this experiment and data collection can be found below
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
  [1] "TimeBodyAccelerometerMean()-X"                    
  [2] "TimeBodyAccelerometerMean()-Y"                    
