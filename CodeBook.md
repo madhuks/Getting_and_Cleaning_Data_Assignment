@@ -97,6 +97,4 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 [83] "Angle(TimeBodyGyroscopeJerkMean,GravityMean)"     
 [84] "Angle(X,GravityMean)"                             
 [85] "Angle(Y,GravityMean)"                             
-[86] "Angle(Z,GravityMean)"                             
-[87] "Activity"                                         
-[88] "Subject"                                          
+[86] "Angle(Z,GravityMean)"                                                                      
