@@ -35,3 +35,11 @@ You should create one R script called run_analysis.R that does the following.
    https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 4. Unzip the file to create the folder 'UCI HAR Dataset' and copy the folder into the working directory
 5. Soure the proram 'run_analysis.R' to tidy the data 
+
+### How the script works
+Two libraries, namely 'data.table' & 'dplyr' need to be loaded for the program to work. 
+Part 1: In this part, the feature names and activity labels are read. Next, the training data and test data are read and then  combined into one data frame. Two columns explaining 'Activity' and 'Subject' are added to the combined data frmae.  
+Part 2: In this part, the columns pertaining to only mean and standard deviation measures were extracted from the combined data. 
+Part 3: In this part, descriptive activity names are used to name the activities in the data set
+Part 4: In this part, the abbreviations are exapanded to descriptive names and column names of the data frmae of step 3 are modified with discriptive names.
+Part 5: In this part, a second, independent tidy data set with the average of each variable for each activity and each subject was created from Part 4. This data was written into a file. 
