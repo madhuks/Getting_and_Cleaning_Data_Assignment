@@ -29,7 +29,7 @@ You should create one R script called run_analysis.R that does the following.
 4. tidydata.txt
 
 ### Instructions on how to run this program
-1. Clone this repository
+1. Clone this repository from the link https://github.com/madhuks/Getting_and_Cleaning_Data_Assignment
 2. Launch R studio and create a working directory
 3. Download the raw data from the link below
    https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
